@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Aplikacja": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\Soneta\\enova365 2406.0.0\\SonetaExplorer.exe",
+      "commandLineArgs": "--extpath=. --nodbextension --nodbextensions"
+    },
+    "Multi": {
+      "commandName": "Executable",
+      "executablePath": "c:\\ENOVA\\Soneta.Standard.2406.0.0\\Soneta.Standard\\Soneta.Products.Server.Standard\\orchestrator.exe",
+      "commandLineArgs": "-c c:\\ENOVA\\net.json --force"
+    }
+  }
+}

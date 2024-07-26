@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataForm xmlns="http://www.enova.pl/schema/form.xsd" Priority="100" DataType="Pageform2.KlasaLLBase,Pageform2">
+  <Page CaptionHtml="Mobilna" DataContext="{DataSource}">
+
+    <Stack Width="*">
+
+      <Row>
+        <Field IsReadOnly="true" Priority="3"  CaptionHtml="" Width="*" Height="10" EditValue="{opis}" />
+      </Row>
+      <Row>
+        <Field Visibility="{IsVisibleInput1}" Priority="1"  CaptionHtml="" Width="*" EditValue="{kodKreskowy}" Class="FirstResponder" />
+        <Field Visibility="{IsVisibleInput2}" Priority="1"  CaptionHtml="" Width="*" EditValue="{kodKreskowy}" Class="FirstResponder" />
+      </Row>
+    </Stack>
+
+
+  </Page>
+</DataForm>
